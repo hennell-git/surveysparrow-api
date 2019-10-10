@@ -13,5 +13,11 @@
         }
     ],
     "minimum-stability": "dev",
-    "keywords": ["php", "surveysparrow"]
+    "keywords": ["php", "surveysparrow"],
+    "autoload": {
+        "psr-4": {
+            "Hennell\\SurveySparrowAPI": "src/"
+        }
+    }
+
 }
